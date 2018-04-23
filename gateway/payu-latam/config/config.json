@@ -1,0 +1,58 @@
+{
+  "configType": "payment",
+  "titleResourceId": "title",
+  "descriptionResourceId": "description",
+  "instances": [
+    {
+      "id": "agent",
+      "instanceName": "agent",
+      "labelResourceId": "agentInstanceLabel"
+    },
+    {
+      "id": "preview",
+      "instanceName": "preview",
+      "labelResourceId": "previewInstanceLabel"
+    },
+    {
+      "id": "storefront",
+      "instanceName": "storefront",
+      "labelResourceId": "storefrontInstanceLabel"
+    }
+  ],
+  "properties": [
+    {
+      "id": "merchantId",
+      "type": "stringType",
+      "pattern": "[0-9]+",
+      "name": "merchantId",
+      "helpTextResourceId": "merchantIdHelpText",
+      "labelResourceId": "merchantIdLabel",
+      "required": true
+    },
+    {
+      "id": "accountId",
+      "type": "stringType",
+      "pattern": "[0-9]+",
+      "name": "accountId",
+      "helpTextResourceId": "accountIdHelpText",
+      "labelResourceId": "accountIdLabel",
+      "required": true
+    },
+    {
+      "id": "paymentMethodTypes",
+      "type": "optionType",
+      "name": "paymentMethodTypes",
+      "helpTextResourceId": "paymentMethodsHelpText",
+      "labelResourceId": "paymentMethodsLabel",
+      "defaultValue": "card",
+      "required": true,
+      "options": [
+        {
+          "id": "card",
+          "value": "card",
+          "labelResourceId": "cardLabel"
+        }
+      ]
+    }
+  ]
+}

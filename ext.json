@@ -1,0 +1,9 @@
+{
+  "extensionID": "429ec4d3-5c26-42cc-a644-ef924254ac32",
+  "developerID": "999999",
+  "createdBy": "PayU Latam",
+  "name": "payu-latam-occs-extension",
+  "version": 1,
+  "timeCreated": "2017-09-18",
+  "description": "PayU Latam Payment Gateway"
+}

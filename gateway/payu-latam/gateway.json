@@ -1,0 +1,13 @@
+{
+  "provider": "PayU Latam Payment Provider",
+  "paymentMethodTypes": [
+    "card"
+  ],
+  "transactionTypes": {
+    "card": [
+      "authorization",
+      "void",
+      "refund"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "resources": {
+    "title": "Configuração do Gateway de Pagamentos da PayU Latam",
+    "description": "Configuração para integrar o Oracle Commerce Cloud Service com o Gateway de Pagamentos da PayU Latam.",
+    "agentInstanceLabel": "Configuração do agente",
+    "previewInstanceLabel": "Configuração da pré-visualização",
+    "storefrontInstanceLabel": "Configuração da loja",
+    "merchantIdLabel": "ID do Comércio",
+    "merchantIdHelpText": "Seu ID de comércio na plataforma PayU Latam. Exemplo: 508029",
+    "accountIdLabel": "ID da Conta",
+    "accountIdHelpText": "O ID de uma das suas contas na plataforma PayU Latam. Exemplo: 512327",
+    "paymentMethodsLabel": "Meios de Pagamento",
+    "paymentMethodsHelpText": "Meios de pagamento suportados pela plataforma PayU Latam",
+    "cardLabel": "Cartão de débito/crédito"
+  }
+}
